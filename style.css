@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    ---branco: #f1f1f1 ;
+    ---bege1:  #F6EDDE ;
+    ---bege2:  #EAD1B0 ;
+    ---bege3:  #E1BC90 ;
+    ---bege4:  #D49A63 ;
+    ---laranja:#CB7F44 ;
+   --terracota:#BD6A39;
+   ---marrom1: #9D5431;
+   ---marrom2: #663A28;
+   ---marrom3: #371C13;
+    ---preto:  #000;
+
+
+}
+
+body{
+    background-color: var(---bege2);
+}
+
+header>div.container-flex{
+    display: flex;
+    align-items: ;
+    justify-content: space-between;
+    background-color: #9D5431;
+    height: 210px;
+}
+
+.container-flex{
+    width: 85%;
+    max-width: 1440px;
+}
