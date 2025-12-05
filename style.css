@@ -20,19 +20,121 @@
 
 }
 
+@font-face {
+    font-family: Bell MT;
+    src: url(./fonts/Bell\ MT\ Regular/);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Bell MT;
+    src: url(./fonts/Bell\ MT\ Bold\ Italic/);
+}
+
+@font-face {
+    font-family: Eshira;
+    src: url(./fonts/Eshira-1.otf);
+    font-weight: 400;
+}
+
+
+
+
 body{
     background-color: var(---bege2);
 }
 
+header{
+    width: 100%;
+    background-color:var(---marrom1);
+}
+
+
 header>div.container-flex{
     display: flex;
-    align-items: ;
     justify-content: space-between;
     background-color: #9D5431;
-    height: 210px;
+    height: 165px;
 }
 
 .container-flex{
     width: 85%;
     max-width: 1440px;
+    margin: 0 auto;
 }
+
+#Logo{
+    width: 270px;
+    margin-right: 80px;
+    
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 98px;
+}
+
+.links a{
+    font-size: 38px;
+    color: var(---bege2);
+    text-decoration: none;
+}
+
+
+.links a:hover{
+    color:var(---marrom3);
+    border-bottom: 1px solid var(---marrom3);
+}
+
+#icone-barras,
+#icone-x,
+#menu_botao{
+    display: none;
+}
+
+
+
+
+.Banner01{
+    width: 100%;
+    height: 1200px;
+    background-image: url(./img/Frame\ 2.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.Sobre-Nós h2{
+    font-size: 64px;
+    font-family:Eshira;
+    color: #663A28;
+    margin-top: 2%;
+    width: 50%;
+    text-align: left;
+    
+}
+
+
+.Sobre-Nós img{
+    width: 28%;
+    border-radius: 40px;
+    height: 600px;
+    margin: 1200px;
+    margin-top: 4%;
+   
+
+}
+
+
+.Texto-Sobre{
+    font-size:40px ;
+    font-family: Bell MT Regular;
+    color: #000;
+}
+
+
+
+
+
