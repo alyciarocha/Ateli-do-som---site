@@ -1,32 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aeliê do Som</title>
-
-    <link rel="shortcut icon" href="img/original 3.svg" type="image/x-icon">
-
-    <link rel="stylesheet" href="./style.css">
-
-    <script src="./script.js" defer></script>
+    <title>Atelê do Som</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./img/Logo Branca s Fundo.svg">
+ <script src="./script.js" defer></script>
 </head>
-
 <body>
+        <div id="sombra"></div>
 
+    <!-- HEADER -->   
     <header>
         <div class="container-flex">
-            <img id= "Logo" src="./img/original 3.svg" alt="">
+            <img id="Logo" src="./img/Logo Branca s Fundo.svg" alt="Logo">
 
-            <nav id="menu" class="links">
-                <a href="#Entar">Entrar</a>
-                <a href="#Sobre Nós ">Sobre Nós</a>
-                <a href="#Conheça">Conheça</a>
-                <a href="#Informações">Informações</a>
-                <a href="#Contato">Contato</a>
+            <nav class="links">
+                <a href="#">Entar</a>
+                <a href="#">Sobre</a>
+                <a href="#">Conheça</a>
+               <a href="#">Informações</a>
+                
             </nav>
-            <button id= "menu_botao" type="button">
+<!-- Menu de Hamburguer-->
+            <button id="menu_botao" onclick="abreFechaMenu()">
                 <svg id="icone-barras" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                     <path
                         d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
@@ -38,82 +36,71 @@
                 </svg>
             </button>
 
+
+
         </div>
-   
     </header>
- <div class="Banner01"></div>
- 
-<section class="Sobre-Nós">
-    <div class="Texto-Sobre">
-        <h2>Sobre Nós</h2>
-        <p>
-           Ateliê do Som, uma escola/loja de se iniciou a partir da vontade de
-           músicos e educadores de levar conhecimento musical de um jeito prático e
-           acessível para todos. Eles entendem que a música é comunicação que reflita
-           a paixão pela música e sua capacidade de transformar vidas. 
-        </p>
-    </div>
-
-<div class="img-sobre">
-    <img src="./img/post de inscricoes 09 1.png" alt="">
-</div>
-</section>
-
-
-
-
 
     <main>
-    </main>
-<section id="Roda-pe">
-            <section id="Formulario">
-                     <form action="forms">
-            <div class="forms">
-                <div class="campo">
-                    <label for="campo-email"> seu email</label>
-                    <input type="text" id="campo-nome" placeholder="Digite seu email de usuario...">
-                </div>
-
-                <div class="campo">
-                    <label for="campo-senha">Em qual e-mail podemos te respoder?</label>
-                    <input type="e-mail" id="campo-email" placeholder="Digite seu email...">
-                </div>
-                <button type="submit">Enviar</button>
-            </div>
-        </form>
-            </section>
+    <!-- BANNER -->
+    <div class="Banner01"></div>
 
 
 
+    <section class="Sobre-Nós container-flex">
+        <div>
+            <h2>Sobre Nós</h2>
+            <p class="Texto-Sobre">
+                Ateliê do Som, uma escola/loja de se iniciou a partir da vontade de músicos e educadores 
+                de levar conhecimento musical de um jeito prático e acessível para todos. 
+                Eles entendem que a música é comunicação que reflita a paixão pela música 
+                e sua capacidade de transformar vidas.
+            </p>
+        </div>
+
+        <img src="./img/post de inscricoes 09 1.png" alt="Sobre Nós">
+
+    </section>
+
+    <section class="Posts">
+        <h3>Onde o som, encontra casa</h3>
+        <div class="Banner-posts">
+            <img src="./img/02 cavaquinho joão.jpg 2 1.png" alt="">
+            <img src="./img/01 post violino 1.png" alt="">
+            <img src="./img/03 felipe .jpg 2  1.png" alt="">
+        </div>
+    </section>
 
 
+</main>
 
-            <div class="redes-sociais">
+    <!-- RODAPÉ --> 
+    <footer>
+        <div class="container-footer">
+
+            <!-- Redes Sociais Esquerda -->
+            <div class="footer-social">
+                <h3>Siga nossas redes</h3>
                 <ul>
-                    <div class="email">
-                        <img src="./img/email 1.png" alt="icone de e-mail">
-                        ateliedosomo.ficial@gmail.com
-                    </div>
-
-                    <div class="insta">
-                        <img src="./img/instagram-2 1.png" alt="icone instagram">
-                        @atelie_do_som134
-                    </div>
-
-                    <div class="tiktok">
-                        <img src="./img/tiktok 1.png" alt="icone tiktok">
-                        atelie_do_som134
-                    </div>
+                    <li><img src="./img/instagram-2 1.png" alt="icone instagram"><a href="#">@atelie_do_som134</a></li>
+                    <li><img src="./img/tiktok 1.png" alt="icone tik tok"><a href="#">@ateie_do_som134</a></li>
+                    <li> <img src="./img/email 1.png" alt="icone email"><a href="#">ateliedosom.oficial@gmail.com</a></li>
+                     <li><img src="./img/location 1.png" alt="icone localizacao"><a href="#">Rua Niteroi 180</a></li>
                 </ul>
             </div>
-            </ul>
+
+            <!-- Formulário Direita -->
+            <div class="footer-form">
+                
+                <form>
+                    <input type="email" placeholder="Seu e-mail">
+                    <input type="password" placeholder="Senha">
+                    <button type="submit">Entrar</button>
+                </form>
             </div>
-        </section>
 
-
-
-
+        </div>
+    </footer>
 
 </body>
-
 </html>
